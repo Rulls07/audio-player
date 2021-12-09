@@ -97,6 +97,9 @@ body {
   margin-top: -230px;
   left: 25px;
 }
+.controlRange span{
+  padding: 10px;
+}
 .inputRange {
   width: 223px;
   height: 5px;

@@ -215,6 +215,18 @@ nextBtn.addEventListener("click", () => {
   updateProgress(audioPlayer);
   updateDuration();
 });
+  audioPlayer.addEventListener('ended', (e) => {
+  console.log(e);
+  currentSong++;
+  // console.log(currentSong);
+  if (currentSong == allMusic.length) {
+    currentSong = 0;
+    // console.log("currentSong == allMusic.length", currentSong);
+  }
+  playSong(allMusic);
+  showInfoMusique(allMusic);
+  play();
+});
 //* ----------------------------------------------PLAY SONG
 playBtn.addEventListener("click", () => {
   divPauseBtn.classList.remove("visibility");
