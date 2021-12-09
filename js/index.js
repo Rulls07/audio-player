@@ -209,25 +209,20 @@ nextBtn.addEventListener("click", () => {
       }
     }
   });
-//* ----------------------------------------------AUDIOPLAYER SONG
+
+
+  //* ----------------------------------------------AUDIOPLAYER SONG
+
   audioPlayer.addEventListener("timeupdate", (e) => {
   updateTimeSong();
   updateProgress(audioPlayer);
   updateDuration();
+
 });
-  audioPlayer.addEventListener('ended', (e) => {
-  console.log(e);
-  currentSong++;
-  // console.log(currentSong);
-  if (currentSong == allMusic.length) {
-    currentSong = 0;
-    // console.log("currentSong == allMusic.length", currentSong);
-  }
-  playSong(allMusic);
-  showInfoMusique(allMusic);
-  play();
-});
-//* ----------------------------------------------PLAY SONG
+  audioPlayer.addEventListener('ended', (e) => nextBtn.click());
+
+
+  //* ----------------------------------------------PLAY SONG
 playBtn.addEventListener("click", () => {
   divPauseBtn.classList.remove("visibility");
   divPlayBtn.classList.add("visibility");
