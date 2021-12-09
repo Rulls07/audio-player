@@ -1,0 +1,33 @@
+{
+    
+  "DanslafermedeMathurin":{
+      "Artiste":"Kevin ",
+      "title":"Dans la ferme de Mathurin",
+      "Album":"Comptines",
+      "src":"../musique/dans_la_ferme_de_mathurin.mp3"
+  },
+  "Ahlescrocodiles":{
+      "Artiste":"Laurent ",
+      "title":"Ah les crocodiles",
+      "Album":"Comptines bebe",
+      "src":"../musique/ah_les_crocodiles.mp3"
+  },
+  "AinsiFontFontFont":{
+      "Artiste":"Patrick ",
+      "title":"Ainsi Font Font Font",
+      "Album":"titounis",
+      "src":"../musique/ainsi_font_font_font.mp3"
+  },
+  "Monane":{
+      "Artiste":"Jean Bernard",
+      "title":"Mon âne",
+      "Album":"HeyKids",
+      "src":"../musique/mon_ane.mp3"
+  },
+  "Pommepêchepoireabricon":{
+      "Artiste":"Stefhan ",
+      "title":"Pomme pêche poire abricon",
+      "Album":"Boutchoo",
+      "src":"../musique/pomme_peche_poire_abricot.mp3"
+  }
+  }

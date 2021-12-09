@@ -1,0 +1,70 @@
+{
+  "chansons": [
+    {
+      "artiste": "Kevin ",
+      "title": "Dans la ferme de Mathurin",
+      "album": "Comptines",
+      "src": "./musique/dans_la_ferme_de_mathurin.mp3"
+    },
+    {
+      "artiste": "Laurent ",
+      "title": "Ah les crocodiles",
+      "album": "Comptines bebe",
+      "src": "./musique/ah_les_crocodiles.mp3"
+    },
+    {
+      "artiste": "Patrick ",
+      "title": "Ainsi Font Font Font",
+      "album": "titounis",
+      "src": "./musique/ainsi_font_font_font.mp3"
+    },
+    {
+      "artiste": "Jean Bernard",
+      "title": "Mon âne",
+      "album": "HeyKids",
+      "src": "./musique/mon_ane.mp3"
+    },
+    {
+      "artiste": "Stephan ",
+      "title": "Pomme pêche poire abricot",
+      "album": "Boutchoo",
+      "src": "./musique/pomme_peche_poire_abricot.mp3"
+    },
+    {
+      "artiste": "Piemme ",
+      "title": "Une Souris Verte",
+      "album": "Boutchoo",
+      "src": "./musique/uneSourisVerte.mp3"
+    },
+    {
+      "artiste": "Julien",
+      "title": "Un elephant qui se Balancait",
+      "album": "HeyKids",
+      "src": "./musique/unElephantQuiSeBalancait.mp3"
+    },
+    {
+      "artiste": "Raul",
+      "title": "Les petits poissons dans l'eau",
+      "album": "titounis",
+      "src": "./musique/lesPetitsPoissonsDansLeau.mp3"
+    },
+    {
+      "artiste": "Sissi",
+      "title": "La mere Michel",
+      "album": "titounis",
+      "src": "./musique/laMereMichel.mp3"
+    },
+    {
+      "artiste": "YenNhi",
+      "title": "Tourne tourne petit moulin",
+      "album": "Boutchoo",
+      "src": "./musique/tourneTournePetitMoulin.mp3"
+    },
+    {
+      "artiste": "Thibault",
+      "title": "Frere Jacques",
+      "album": "HeyKids",
+      "src": "./musique/frereJacques.mp3"
+    }
+  ]
+}
