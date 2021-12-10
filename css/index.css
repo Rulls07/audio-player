@@ -58,10 +58,6 @@ body {
 .visibility {
   visibility: hidden;
 }
-.time {
-  color: #ad0d20;
-  font-weight: 700;
-}
 
 .formInfo {
   position: absolute;
@@ -91,17 +87,32 @@ body {
   z-index: 80;
 }
 .controlRange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   position: absolute;
   z-index: 80;
-  margin-left: 469px;
-  margin-top: -230px;
+  margin-left: 457px;
+  margin-top: -243px;
   left: 25px;
+}
+.marginRTime{
+  margin-right: 12px;
+}
+.time {
+  color: #ad0d20;
+  font-weight: 700;
+  /* width: 10px; */
+  font-size: var(--font-text);
+  
 }
 .controlRange span{
   padding: 10px;
+  width: 25px;
 }
 .inputRange {
-  width: 223px;
+  /* width: 223px; */
   height: 5px;
 }
 input[type="range"].inputRange {
