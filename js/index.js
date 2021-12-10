@@ -190,16 +190,11 @@ nextBtn.addEventListener("click", () => {
       for (let i = 0; i < allMusic.length; i++) {
         const valueTitleJson = allMusic[i].title;
         if (valueListe == valueTitleJson) {
-          console.log(
-            "*******liste*******",
-            valueListe,
-            "*******JSON*******",
-            valueTitleJson
-          );
+          // console.log("*******liste*******",valueListe,"*******JSON*******",valueTitleJson);
           // console.log(allMusic);
           // console.log(i);
           currentSong = i;
-          console.log("currentSong****>", currentSong);
+          // console.log("currentSong****>", currentSong);
           playSong(allMusic);
           showInfoMusique(allMusic);
           play();
